@@ -1,6 +1,6 @@
 inverse_triangule = lambda n: '\n'.join([
-    f"{'-' * (i)}{'*' * (2 * i + 1)}"
-    for i in range(8, 0, -1)
+    f"{' ' * (n - i - 1)}{'*' * (2 * i + 1)}"
+    for i in range(n - 1, -1, -1)
 ])
 
 print(inverse_triangule(5))
