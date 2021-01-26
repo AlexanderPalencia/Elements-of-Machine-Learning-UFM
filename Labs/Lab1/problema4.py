@@ -12,8 +12,3 @@ def list_primes(n):
         primes.append(eval_num)
         list_numbers.difference_update(set(range(eval_num * 2, n + 1, eval_num)))
     return primes
-
-import time
-start = time.time()
-list_primes(100000)
-print('Computed in: ', time.time() - start)

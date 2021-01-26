@@ -7,9 +7,3 @@ def rhombus(n):
     ])
 
 
-print(rhombus(7))
-print(rhombus(9))
-print(rhombus(11))
-print(rhombus(13))
-
-
